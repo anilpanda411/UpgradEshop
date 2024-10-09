@@ -1,0 +1,114 @@
+/* General Page Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+/* Main Product Container */
+.product-container {
+  display: flex;
+  max-width: 1400px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Product Image Section */
+.product-image {
+  flex: 1;
+  padding-right: 40px;
+}
+.product-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  max-width: 500px;
+}
+
+/* Product Details Section */
+.product-details {
+  flex: 2;
+  padding-left: 40px;
+}
+
+/* Product Header (Name + Availability) */
+.product-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Product Name */
+.product-name {
+  font-size: 36px;
+  font-weight: bold;
+  margin-right: 40px; /* Add space between product name and availability */
+}
+
+/* Product Availability */
+.product-availability {
+  font-size: 20px;
+  padding: 10px;
+  background-color: #e0e0e0;
+  border-radius: 8px;
+  color: #333;
+}
+
+/* Product Category */
+.product-category {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+/* Product Description */
+.product-description {
+  font-size: 20px;
+  color: #555;
+  margin: 10px 0;
+}
+
+/* Product Price Styling */
+.product-price {
+  margin-top: 15px;
+}
+.price-text {
+  color: red;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+/* Quantity Selector */
+.quantity-box {
+  margin-top: 30px;
+}
+.quantity-box label {
+  font-size: 20px;
+  margin-right: 10px;
+}
+.quantity-box input {
+  width: 80px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+/* Order Button */
+.order-button {
+  margin-top: 35px;
+}
+.order-button button {
+  background-color: #007bff;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.order-button button:hover {
+  background-color: #0056b3;
+}
+
